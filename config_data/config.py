@@ -1,10 +1,8 @@
-from dotenv import load_dotenv, find_dotenv
-import os
 import logging
 
 logging.basicConfig(level=logging.INFO)
 
-SECRET_KEY = '6590357412:AAEnbmg9eKGc-pNnosM_Gky4nxS88Ugxfjo'
+SECRET_KEY = ''
 
 DEFAULT_COMMANDS = (
     ('help', "Помощь по командам бота"),
